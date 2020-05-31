@@ -4,21 +4,19 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <input type="checkbox"/>
+      <p>Placeholder checkbox1</p>
+
+      <input type="checkbox"/>
+      <p>Placeholder checkbox2</p>
+
+      <input type="checkbox"/>
+      <p>Placeholder checkbox3</p>
+
+      <input type="checkbox"/>
+      <p>Placeholder checkbox4</p>
+    
     </div>
   );
 }
